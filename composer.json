@@ -1,0 +1,17 @@
+{
+    "name": "jumas-cola/pixel_plus_test_task",
+    "description": "Test task for pixel plus",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jumas",
+            "email": "kbbyfl91@gmail.com"
+        }
+    ],
+    "require": {}
+}
