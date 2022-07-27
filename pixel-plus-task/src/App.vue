@@ -22,7 +22,7 @@ export default {
     };
   },
   created() {
-    fetch(`http://localhost:8000/src?window=${this.window}`)
+    fetch(`/src?window=${this.window}`)
       .then((response) => {
         return response.json();
       })
@@ -32,7 +32,7 @@ export default {
   },
   watch: {
     window() {
-      fetch(`http://localhost:8000/src?window=${this.window}`)
+      fetch(`/src?window=${this.window}`)
         .then((response) => {
           return response.json();
         })
