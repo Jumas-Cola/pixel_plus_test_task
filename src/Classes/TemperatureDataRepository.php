@@ -12,7 +12,7 @@ class TemperatureDataRepository
     static $sizes = [
         "day" => 9,
         "week" => 9 * 7,
-        "month" => 30,
+        "month" => 9 * 30,
     ];
 
     /**
